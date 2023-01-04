@@ -16,8 +16,7 @@ module.exports = {
         "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd ..",
       type: "android.attached",
       device: {
-        adbName: "Infinix X656",
-        // avdName: "Pixel_XL",
+        adbName: "emulator-5556",
       },
     },
   },
